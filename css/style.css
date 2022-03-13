@@ -1,0 +1,45 @@
+/* Nav */
+.navbar-fixed {position: absolute;}
+.brand-logo img { width: 90px;}
+#nav-mobile {margin-left: 130px;}
+
+/* Container */
+.container {width: 90%;}
+
+/* Row */
+.row {margin-bottom: 0;}
+
+/* Nav - User */
+.user-image {width: 40px; margin-right: 5px;}
+
+/* Nav - Dropdown */
+.dropdown-content {background-color: rgba(0,0,0,0.9);}
+.dropdown-content li a {color: white; font-size: 0.9rem;}
+.dropdown-content li a:hover {color: white; font-size: 0.9rem; text-decoration: underline;}
+.dropdown-content li:hover { background-color: transparent;}
+
+/* Banner */
+.banner {background-image: url('../img/vingadores.jpg'); background-size: cover; min-height: 100vh;}
+.banner h3 {font-weight: 900; color: #fff; font-size: 5rem;}
+.banner h5 {color: #fff; font-size: 2rem; font-weight: 700;}
+.banner p {color: #fff; font-size: 1.3rem; line-height: 1.3rem;}
+.banner a.btn {background-color: rgba(0,0,0,0.5); color: #fff; box-shadow: none; font-weight: 700;}
+.banner a.btn:hover {background-color: #fff; color: #333;}
+
+/* Carousel */
+.populares {padding: 40px 0;}
+.populares h4 {font-weight: 400; color: #fff; font-size: 1.5rem; margin-top: 0;}
+.carousel {height:200px}
+
+/* Video */
+.video {padding: 40px 0; background-image: url('../img/bg.jpg'); background-size: cover;  }
+.video h3 {font-weight: 900; color: #fff; font-size: 4rem; line-height: 4rem;}
+.video h5 {color: #fff; font-size: 1.5rem; font-weight: 700;}
+.video p {color: #fff; font-size: 1rem; line-height: 1.3rem;}
+.video a.btn {background-color: rgba(0,0,0,0.5); color: #fff; box-shadow: none; font-weight: 700;}
+.video a.btn:hover {background-color: #fff; color: #333;}
+
+/* Footer */
+.footer {padding: 40px 0;}
+.footer a, .footer p {color: #616161; font-size: 0.9rem;}
+.footer a.btn {border: 1px solid #616161; background-color: transparent; font-size: 0.8rem;}

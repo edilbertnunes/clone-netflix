@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+   
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Side Nav -->
+    <ul id="slide-out" class="sidenav">        
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Séries</a></li>
+        <li><a href="#">Filmes</a></li>
+        <li><a href="#">Mais recentes</a></li>
+        <li><a href="#">Minha lista</a></li>
+      </ul>
+
+    <!-- Nav -->
+    <div class="navbar-fixed">
+    <nav class="black">
+        <div class="nav-wrapper container">
+          <a href="#" class="left brand-logo" href="index.html"><img src="img/logo.png"></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Mais recentes</a></li>
+            <li><a href="#">Minha lista</a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#"><i class="material-icons">search</i></a></li>
+            <li><a href="#">INFANTIL</a></li>
+            <li><a href="#"><i class="material-icons">card_giftcard</i> </a> </li>
+          
+            <li><a class="valign-wrapper dropdown-trigger" data-target='dropdown1' href="#"><img class="user-image left" src="img/user.jpg"> <i class="material-icons">keyboard_arrow_down</i></a></li>
+                 <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!"><i class="material-icons">person_pin</i>Meus dados</a></li>
+                    <li><a href="#!"><i class="material-icons">mail</i>Mensagens<span class="new badge red" data-badge-caption="">4</span></a></li>
+                    <li><a href="#!"><i class="material-icons">not_listed_location</i>Ajuda</a></li>                    
+                    <li><a href="#!"><i class="material-icons">cancel</i>Sair</a></li>                   
+                </ul>
+          </ul>
+          <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </div>
+
+     <!-- Banner -->
+     <div class="row">
+     <section class="banner valign-wrapper">
+         <div class="container">
+            <div class="col s12 m6">
+                <h3>Vingadores</h3>
+                <h5>Top 4 de hoje no Brasil</h5>
+                <p>Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado.</p>
+                <a class="waves-effect waves-light btn"><i class="material-icons left">play_arrow</i>Assistir</a>
+                <a class="waves-effect waves-light btn"><i class="material-icons left">info</i>Mais informações</a>
+            </div>
+        </div>
+   </section>
+    </div>
+
+    <!-- Galeria -->
+    <div class="row">
+    <section class="black populares">
+        <div class="container">
+        <h4>Populares na Netflix</h4>
+        <div class="carousel ">            
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=1"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=2"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=3"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=4"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=5"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=6"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=7"></a>  
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=8"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=9"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=10"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=11"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=12"></a>
+            <a class="carousel-item" ><img src="https://picsum.photos/300/300?random=13"></a>  
+          </div> 
+        </div>             
+    </section>
+    </div>
+
+    <!-- Video-->
+    <section class="row video">
+    <div class="container">
+        <div class="col s12 m7">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZpBrBop30m4?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="col s12 m3">
+            <h3>La Casa de Papel</h3>
+            <h5>Top 4 de hoje no Brasil</h5>
+            <p>Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado.</p>
+            <a class="waves-effect waves-light btn"><i class="material-icons left">play_arrow</i>Assistir</a>            
+        </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <div class="row black footer">
+        <footer class="container">
+            <div class="col s6 m3">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Filmes</a></li>
+                    <li><a href="">Séries</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col s6 m3">
+                <ul>
+                    <li><a href="">Audiodescrição</a></li>
+                    <li><a href="">Imprensa</a></li>
+                    <li><a href="">Privacidade</a></li>
+                    <li><a href="">Relação com investidores</a></li>
+                </ul>
+            </div>
+            <div class="col s6 m3">
+                <ul>
+                    <li><a href="">Avisos legais</a></li>
+                    <li><a href="">Entre em contato</a></li>
+                    <li><a href="">Carreira</a></li>
+                    <li><a href="">Idiomas e legendas</a></li>
+                </ul>
+            </div>
+            <div class="col s6 m3">
+                <ul>
+                    <li><a href="">Cartão pré pago</a></li>
+                    <li><a href="">Termos de uso</a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">Informações corporativas</a></li>
+                </ul>
+            </div>
+            <a class="waves-effect waves-light flat btn">Código do serviço</a>
+            <p>2015 - 2020 © Todos os direitos reservados</p>
+        </footer>
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+   
+</body>
+</html>
